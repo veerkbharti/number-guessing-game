@@ -1,0 +1,65 @@
+.main-body{
+    width: 700px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #807a7a2f;
+    background: rgb(235, 214, 243);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-display{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-board{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.number{
+    font-size: 55px;
+}
+
+.main{
+
+}
+
+input{
+    font-size: 20px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(255, 25, 217);
+    border-radius: 5px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 20px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(255, 25, 217);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.msg{
+    font-size: 18px;
+    margin-top: 35px;
+    background-color: rgba(248, 153, 44, 0.945);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: none;
+}
